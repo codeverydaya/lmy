@@ -1,31 +1,3 @@
-
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Marketplace
-    Explore
-
-    @limaoyin
-
-1
-0
-
-    0
-
-limaoyin/lmy
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Insights
-Settings
-lmy/invest.yml
-85a44a3 21 minutes ago
-@limaoyin limaoyin Update invest.yml
-33 lines (27 sloc) 645 Bytes
 eureka:
   client:
     serviceUrl:
@@ -34,7 +6,7 @@ server:
   port: 9010
 spring:
   application:
-    name: xycinvest
+    name: invest
   jpa:
       generate-ddl: false
       show-sql: true
