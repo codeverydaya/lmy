@@ -24,6 +24,8 @@ spring:
 feign:
   hystrix:
     enabled: true
+evn:
+  test1
 
 
 
