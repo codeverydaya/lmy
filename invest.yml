@@ -6,7 +6,7 @@ server:
   port: 9010
 spring:
   application:
-    name: xycinvest
+    name: invest
   jpa:
       generate-ddl: false
       show-sql: true
