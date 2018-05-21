@@ -25,7 +25,7 @@ feign:
   hystrix:
     enabled: true
 evn:
-  test8
+  test83
 
 
 
