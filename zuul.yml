@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 9030
+spring:
+  application:
+    name: xyczuul
+zuul:
+  routes:
+    i:
+      path: /i/**
+      serviceId: xycinvest
+    u:
+      path: /u/**
+      serviceId: xycuser
