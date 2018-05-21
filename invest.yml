@@ -1,22 +1,32 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://eureka1:8761/eureka/,http://eureka2:8762/eureka/,http://eureka3:8763/eureka/
 server:
-  port: 9090
+  port: 9010
 spring:
   application:
-    name: xycconfig
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/limaoyin/lmy
-          username: 1013127768@qq.com
-          password: li6918222
-          basedir: /Users/lmy/Desktop/xycconfig
-          
-          
-          
-          
-          
+    name: xycinvest
+  jpa:
+      generate-ddl: false
+      show-sql: true
+      hibernate:
+        ddl-auto: none
+  datasource:
+    url: jdbc:mysql://39.106.10.102:3306/dtest1?useUnicode=true&amp;characterEncoding=UTF8
+    data-username: zkbc
+    data-password: password
+    driver-class-name: com.mysql.jdbc.Driver
+
+  rabbitmq:
+         host: localhost
+         port: 5672
+         username: guest
+         password: guest
+
+feign:
+  hystrix:
+    enabled: true
+
+
+
