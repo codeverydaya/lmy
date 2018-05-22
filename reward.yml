@@ -6,7 +6,6 @@ spring:
     username: zkbc
     password: password
     url: jdbc:mysql://39.106.10.102:3306/test1?useUnicode=true&amp;characterEncoding=UTF8
-    
-    
-    
-    
+server:
+  port: 9091
+  
