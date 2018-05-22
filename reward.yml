@@ -17,6 +17,6 @@ spring:
 server:
   port: 9091
 mobile:
-  kefu: 188,112,121999991
-  fengkong: 112,12331,111332
+  kefu: 188,112,12199999
+  fengkong: 112,12331,11133
   
