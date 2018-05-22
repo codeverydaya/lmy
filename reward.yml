@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: zkbc
     password: password
-    url: jdbc:jdbc:mysql://192.168.100.103:3308/dtest1?useUnicode=true&amp;characterEncoding=UTF8
+    url: jdbc:mysql://192.168.100.103:3308/dtest1?useUnicode=true&amp;characterEncoding=UTF8
     
     
     
