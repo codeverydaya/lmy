@@ -3,7 +3,7 @@ server:
   port: 9030
 spring:
   application:
-    name: xyczuul
+    name: zuul
 zuul:
   routes:
     i:
@@ -14,4 +14,5 @@ zuul:
       serviceId: user
     r:
       path: /r/**
-      serviceId: reward  
+      serviceId: reward
+      
