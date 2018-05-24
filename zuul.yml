@@ -11,7 +11,10 @@ zuul:
   routes:
     i:
       path: /i/**
-      serviceId: xycinvest
+      serviceId: invest
     u:
       path: /u/**
-      serviceId: xycuser
+      serviceId: user
+    r:
+      path: /r/**
+      serviceId: reward  
