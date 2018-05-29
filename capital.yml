@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: capital
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: zkbc
+    password: password
+    url: jdbc:mysql://39.106.10.102:3306/test1?useUnicode=true&amp;characterEncoding=UTF8
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: 192.168.30.77
+    port: 6379  
+server:
+  port: 9091
+mobile:
+  kefu: 188,112,12199999
+  fengkong: 112,12331,11133
+  
