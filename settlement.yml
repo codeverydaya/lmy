@@ -1,0 +1,45 @@
+server:
+  port: 9020
+spring:
+#thymeleaf配置文件
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    cache: false
+  datasource:
+    url: jdbc:mysql://39.106.10.102:3306/guns?useUnicode=true&amp;characterEncoding=UTF8
+    username: zkbc
+    password: password
+    driver-class-name: com.mysql.jdbc.Driver
+    druid.initial-size: 1
+    druid.min-idle: 1
+    druid.max-active: 2
+    druid.test-on-borrow: true
+    druid.stat-view-servlet.allow: true
+
+#css，js等静态文件
+  mvc:
+    static-path-pattern: /static/**
+    
+
+#mybatis配置
+mybatis:
+  type-aliases-package: com.xyc.settlement.model
+  mapper-locations: classpath:mapper/*.xml
+
+#分页配置
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+
+
+
+
+
+
